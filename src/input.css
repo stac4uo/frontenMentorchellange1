@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.input-style {
+		@apply w-5/6 my-4 p-4 border;
+	}
+}

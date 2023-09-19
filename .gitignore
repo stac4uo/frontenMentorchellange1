@@ -1,5 +1,6 @@
 design
 node_modules
+src
 package-lock.json
 package.json
 style-guide.md
