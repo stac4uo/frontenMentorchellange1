@@ -18,37 +18,49 @@
 </head>
 
 <body class="text-base  bg-redPrime">
-  <div class=" pt-20 w-full bg-[url('./images/bg-intro-mobile.png')] flex flex-col justify-center items-center ">
-    <h1 class="w-[90%] text-center text-3xl text-white font-semibold "> Learn to code by watching others
-    </h1>
+  <div class=" pt-20 w-full bg-[url('./images/bg-intro-mobile.png')] md:flex">
 
-    <p class="text-white text-center w-[90%] font-semibold leading-loose">See how experienced developers solve problems
-      in real-time. Watching
-      scripted
-      tutorials is great,
-      but understanding how developers think is invaluable.</p>
+    <section class=" flex flex-col justify-center items-center gap-4 mb-6 md:w-[50%] md:items-end ">
+      <h1 class=" text-center text-3xl text-white font-semibold md:w-[70%] md:text-4xl  "> Learn to code by <br>
+        watching
+        others
+      </h1>
 
-    <button class="w-[90%] p-4 m-4 text-white font-[400] bg-blueM rounded-md shadow-lg shadow-blueDark"><span
-        class="font-bold">Try it
-        free
-        7
-        days</span>
-      then<br>
-      $20/mo.
-      thereafter</button>
+      <p class="text-slate-100 text-center font-semibold leading-loose md:w-[70%] md:text-left">See how experienced
+        developers solve
+        problems
+        in real-time. Watching
+        scripted
+        tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </section>
+
+    <section class=" flex  flex-col justify-center items-center gap-4  md:w-[50%] ">
+      <button
+        class="w-[90%] p-5 m-4 text-white font-[400] bg-blueM rounded-md  shadow-lg shadow-blueDark md:w-[70%] md:text-sm"><span
+          class="font-bold">Try it
+          free
+          7
+          days</span>
+        then<br class="md:hidden">
+        $20/mo.
+        thereafter</button>
 
 
 
-    <form autocomplete="off"
-      class="w-[90%] py-4 bg-white flex flex-col justify-center items-center font-semibold rounded-md space-y-4">
-      <input type="text" placeholder="First Name" class="input-style" required>
-      <input type="text" placeholder="Last Name" class="input-style" required>
-      <input type="text" placeholder=" Email Address" class="input-style" required>
-      <input type="text" placeholder=" Password" class="input-style" required>
-      <button class=" w-5/6 h-14   text-white bg-greenPrime rounded-md ">CLAIM YOUR FREE TRIALS</button>
-      <p class="w-[75%] text-xs text-center text-blueGrayish">
-        By clicking the button, you are agreeing to our <span class=" text-red-500">Terms and Services</span></p>
-    </form>
+      <form autocomplete="off"
+        class="w-[90%]  bg-white flex flex-col justify-center items-center font-semibold rounded-md md:w-[70%] p-4 ">
+        <input type="text" placeholder="First Name" class="input-style rounded-md" required>
+        <input type="text" placeholder="Last Name" class="input-style rounded-md" required>
+        <input type="text" placeholder=" Email Address" class="input-style rounded-md" required>
+        <input type="text" placeholder=" Password" class="input-style rounded-md" required>
+        <button class=" w-5/6 h-14   text-white bg-greenPrime hover:bg-green-300 transition-colors rounded-md ">CLAIM
+          YOUR FREE
+          TRIALS</button>
+        <p class="w-[75%] text-xs text-center text-blueGrayish my-4 leading-loose">
+          By clicking the button, you are agreeing to our <span class=" text-red-500">Terms and Services</span></p>
+      </form>
+    </section>
 
   </div>
 
@@ -57,10 +69,10 @@
 
 
 
-  <footer class="">
-    <p class="attribution">
+  <footer class="bg-none mt-16">
+    <p class="attribution text-center">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">stac4uo</a>.
+      Coded by <a href="#" class="font-semibold">stac4uo</a>.
     </p>
   </footer>
 </body>
